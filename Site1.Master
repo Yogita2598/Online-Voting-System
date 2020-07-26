@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="NET_PROJECT2.Site1" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 354px;
+            height: 486px;
+        }
+        .style3
+        {
+            height: 486px;
+        }
+        .style4
+        {
+            height: 486px;
+            width: 838px;
+        }
+        .style5
+        {
+            color: #FFFFFF;
+            height: 412px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="style1">
+            <tr>
+                <td bgcolor="#990000" class="style5" colspan="3">
+                    <asp:Image ID="Image1" runat="server" />
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#FF9933" class="style2">
+                    &nbsp;</td>
+                <td class="style4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p>
+                            <asp:Image ID="Image2" runat="server" ImageUrl="~/bgimg/bg1.jpg" 
+                                Width="842px" />
+                        </p>
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td class="style3">
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>
+                            <asp:ScriptManager ID="ScriptManager1" runat="server">
+                            </asp:ScriptManager>
+                            <asp:Timer ID="Timer1" runat="server" Interval="1600">
+                            </asp:Timer>
+                            <asp:AdRotator ID="AdRotator1" runat="server" 
+                                AdvertisementFile="~/advertise.xml" />
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

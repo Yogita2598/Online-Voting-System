@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/adimg/aa.png</ImageUrl>
+    <NavigateUrl>http://www.google.com </NavigateUrl>
+    <AlternateText>google</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/adimg/bb.png</ImageUrl>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>google</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/adimg/cc.png</ImageUrl>
+    <NavigateUrl>http://www.google.com </NavigateUrl>
+    <AlternateText>google</AlternateText>
+  </Ad>
+
+</Advertisements>

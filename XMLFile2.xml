@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="StyleSheet2.css"?>
+<questions>
+  <heading>Some Frequently asked Questions</heading>
+  <question>
+    <query>Query-:Can We Review Our Password?</query>
+    <reply>Reply-: Yes ,With The Help of PasswordRecovery</reply>
+  </question>
+  <br/>
+  <br/>
+  <question>
+    <query>Query-:Can We Login Without Registration?</query>
+    <reply>Reply-:No,First of all You have to register Yourself</reply>
+  </question>
+  <br/>
+  <br/>
+
+
+
+  <question>
+    <query>Query-:Can We Change Our Password?</query>
+    <reply>Reply-:Yes With the help of Password Change</reply>
+  </question>
+  <br/>
+  <br/>
+  <question>
+    <query>Query-:Can We Know about Parties Information?</query>
+    <reply>Reply-:Yes ,With the help of Help Link</reply>
+  </question>
+</questions>
